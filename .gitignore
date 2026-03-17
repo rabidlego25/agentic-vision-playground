@@ -1,0 +1,46 @@
+# virtual environments
+.venv/
+venv/
+
+# python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# test / lint / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# editor swap / temp files
+*.swp
+*.swo
+*~
+
+# logs
+*.log
+
+# environment files
+.env
+
+# pyenv / direnv
+.python-version
+
+# IDE settings
+.idea/
+
+# VS Code local settings
+.vscode/
